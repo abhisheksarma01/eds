@@ -16,7 +16,7 @@
       "isContainer": true
     },
     {
-      "containerId": "items-2",
+      "containerId": "item-2",
       "id": "item-2-1",
       "title": "Adobe",
       "environments": ["edit","preview","live","prod","dev"],
@@ -27,7 +27,7 @@
       "includedPaths": ["**/fr/**"]
     },
     {
-      "containerId": "items-2",
+      "containerId": "item-2",
       "id": "item-2-2",
       "title": "Live site",
       "environments": ["edit","preview","live","prod","dev"],
