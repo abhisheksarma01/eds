@@ -34,6 +34,15 @@
       "url": "https://main--eds--abhisheksarma01.aem.page/",
       "passConfig": true,
       "passReferrer": true
+    },
+    {
+      "id": "item-3",
+      "title": "Sidekick library",
+      "environments": ["edit","dev","preview"],
+      "url": "/tools/sidekick/library.html",
+      "passConfig": true,
+      "passReferrer": true,
+      "includePaths": ["**.docx**"]
     }
 
   ]
