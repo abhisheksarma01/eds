@@ -1,0 +1,40 @@
+{
+  "project": "Abhishek EDS Project",
+  "plugins": [
+    {
+      "id": "item-1",
+      "title": "Google Assist",
+      "environments": ["edit","dev","preview","prod","live"],
+      "url": "https://www.google.com/search?q=edge+delivery+services",
+      "passConfig": true,
+      "passReferrer": true,
+      "excludedPaths": ["**/fr/**"]
+    },
+    {
+      "id": "item-2",
+      "title": "Tools",
+      "isContainer": true
+    },
+    {
+      "containerId": "items-2",
+      "id": "item-2-1",
+      "title": "Adobe",
+      "environments": ["edit","preview","live","prod","dev"],
+      "url": "https://www.adobe.com",
+      "passConfig": true,
+      "passReferrer": false,
+      "excludedPaths": ["**"],
+      "includedPaths": ["**/fr/**"]
+    },
+    {
+      "containerId": "items-2",
+      "id": "item-2-2",
+      "title": "Live site",
+      "environments": ["edit","preview","live","prod","dev"],
+      "url": "https://main--eds--abhisheksarma01.aem.page/",
+      "passConfig": true,
+      "passReferrer": true
+    }
+
+  ]
+}
